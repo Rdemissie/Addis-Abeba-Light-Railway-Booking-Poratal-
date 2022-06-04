@@ -120,7 +120,7 @@
     <div class="collapse navbar-collapse" id="myNavbar">
      <ul class="nav navbar-nav navbar-right">
 
-              <li><a href="register.php">Register&nbsp</a></li>
+              <li><?php echo <a href="register.php">Register&nbsp</a>?></li>
 
         <li><a href="sindex.php">User Sign In&nbsp</a></li>
 
