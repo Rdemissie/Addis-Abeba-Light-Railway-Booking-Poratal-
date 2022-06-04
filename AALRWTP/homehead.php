@@ -121,7 +121,12 @@
      <ul class="nav navbar-nav navbar-right">
 
               <li><?php echo <a href="register.php">Register&nbsp</a>?></li>
-
+  <button type="button" name = "submit">REgi</button>
+<?php
+if(isset($_POST['submit'])){
+header("Location: register.php");
+exit;
+}?>
         <li><a href="sindex.php">User Sign In&nbsp</a></li>
 
         <li><a href="adminindex.php">Admin Sign In&nbsp</a></li>
